@@ -1,0 +1,307 @@
+.head{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding:40px 40px ;
+    color: aliceblue;
+}
+.background{
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.leftitem{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    color: aliceblue;
+}
+.navbar-nav .nav-link.active{
+color: white;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.landing h5{
+    margin-top: 20px;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 900;
+    text-align: center;
+
+}
+.landing h1::after{
+    color: aliceblue;
+    content: "I Am";
+    width: 20%;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    animation-name: scripet;
+    animation-duration: 4s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    
+     
+}
+@keyframes  scripet {
+    
+     10%{
+        content: "I Am Developer|";
+        
+     }
+     40%{
+        content: "I Am Designer|";
+     }
+     75%{
+        content: "I Am Larry Daniels|";
+     }
+}
+
+.f1{
+    color: aliceblue;
+}
+.tittle h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #343434;
+    font-size: 30px;
+    font-weight: 700;
+}
+.tittle p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: rgb(153, 152, 152);
+    font-size: 16px;
+    font-weight: 400;
+}
+.tittle span{
+    color: #999;
+    font-weight: 800;
+
+}
+ .container{
+    margin-top: 30px;
+    
+ }
+.st img{
+
+    width:90%; 
+}
+ 
+   .l2 h6{
+    font-weight: 400;
+    font-size: 2px;
+    color:white;
+
+    
+   }
+.btn-dark{
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-color: #424649;
+   }
+   .btn-light{
+    --bs-btn-border-color: #424649;
+    --bs-btn-hover-bg:#424649;
+    --bs-btn-hover-color: #fff;
+   }
+.Services{
+ background-color: #ecebeb;
+ padding-bottom: 200px;
+
+}
+.Services h3{
+font-size: 44px;
+text-align: center;
+font-weight: 900;
+margin-top: 200px;
+padding-top: 40px;
+}
+.servicesicon{
+    
+    background-color:#ecebeb;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom:20px;
+    transition-property:background-color,color ;
+    transition-duration: 1s;
+}
+.h12{
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.text-dark {
+    --bs-text-opacity: 0.7;
+}
+.servicesicon:hover{
+background-color:#1c1c1c;
+color: #ecebeb;
+}
+ .Portfolio{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ .d6{
+    font-size: 40px;
+    font-weight: 900;
+ }
+ .sec2{
+    margin-top:50px ;
+    margin-bottom: 50px;
+ }
+ .s5{
+     
+    font-size: 18px;
+ }
+ .secimg{
+    width: 100%;
+ }
+ .secimg img{
+  width: 30%;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  
+
+ }
+ .hs{
+    position: relative;
+  width: 100%;
+ }
+ .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height:100%;
+    background-color:#fff;
+    width:100% ;
+     
+  }
+  
+   
+   
+  
+  .hs:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    margin-top: 150px;
+    color:black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .Testimonials{
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    margin-bottom: 100px;
+  }
+  .k1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight:900;
+  }
+    .he1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    
+    .carousel-indicators  [data-bs-target]{
+        
+        background-color: #cfcfcf;
+        height: 15px;
+        
+    }
+    .Clients{
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        background-color: #f7f7f7;
+    }
+    .hd6{
+        color: #424649;
+        font-weight: 700;
+    }
+    .hd2{
+        font-weight: 900;
+    }
+    .tag a{
+        color: rgb(143, 138, 138);
+        text-decoration: none;
+    }
+    .tag1 a{
+        color:#1c1c1c;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .ContactUs{
+        margin-top: 100px;
+        
+        background-color: #ecebeb;
+    }
+    .lasth{
+        text-align: center;
+        font-weight: 800;
+        font-size: 40px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .lasticon{
+        background-color: #cfcfcf;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right:10px;
+        transition-property:background-color,color ;
+        transition-duration: 1s;
+        margin-left: 90px;
+        
+    }
+    .lasticon:hover{
+        background-color: #1c1c1c;
+        color: #f7f7f7;
+    }
+    .lasth5 {
+        font-weight: 700;
+        margin-top: 20px;
+        margin-left: 90px;
+        font-size: 15px;
+    }
+    .lastp{
+        color: #424649;
+        font-weight: 600;
+    }
+    .form-floating{
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+        width: 40%;
+        background-color: #ecebeb;
+    }
+    .lastfform{
+       background-color: #ecebeb;
+    }
+    .btn{
+        background-color: #1c1c1c;
+        color: #fff;
+    }
+    .bhg{
+        background-color:#fff;
+        color: #1c1c1c;
+    }
